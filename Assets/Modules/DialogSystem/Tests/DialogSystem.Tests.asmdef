@@ -1,0 +1,16 @@
+{
+    "name": "DialogSystem.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ba6b44436e676ea428f63689bb0cc2d3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

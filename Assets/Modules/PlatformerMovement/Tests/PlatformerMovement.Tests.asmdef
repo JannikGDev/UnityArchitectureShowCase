@@ -1,0 +1,16 @@
+{
+    "name": "PlatformerMovement.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:76e151790d811f042955d04db93566ab"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "AudioSystem.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:38455e7b628c6a34ea3a2107b2a49437",
+        "GUID:250d7d6b422436f4dab1b0a27e6fb8bc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f502eef25fb8240b0d0d6580b23f66, type: 3}
+  m_Name: TestDialog
+  m_EditorClassIdentifier: 
+  parts:
+  - Name: Test0
+    Text: You hear a shuffle in the distance.
+    LeftActive: 0
+    LeftName: 
+    LeftAvatar: {fileID: 0}
+    RightActive: 0
+    RightName: 
+    RightAvatar: {fileID: 0}
+  - Name: Test1
+    Text: Who is there?
+    LeftActive: 1
+    LeftName: Player
+    LeftAvatar: {fileID: 21300000, guid: 9fbba489e20a7b649ab72a6dcf63ff55, type: 3}
+    RightActive: 0
+    RightName: ???
+    RightAvatar: {fileID: 21300000, guid: 2dfc3da08e652c5458c40ce7a4da677c, type: 3}
+  - Name: Test2
+    Text: 'Hello. I am the duck. Fancy meeting you here.
+
+'
+    LeftActive: 0
+    LeftName: Player
+    LeftAvatar: {fileID: 21300000, guid: 9fbba489e20a7b649ab72a6dcf63ff55, type: 3}
+    RightActive: 1
+    RightName: Duck
+    RightAvatar: {fileID: 21300000, guid: 11da9b7220bea1b41ab955ad03745bcd, type: 3}
+  - Name: Test3
+    Text: What is a duck doing here? This is not your natural habitat! Go back from
+      where you came.
+    LeftActive: 1
+    LeftName: Player
+    LeftAvatar: {fileID: 21300000, guid: 9fbba489e20a7b649ab72a6dcf63ff55, type: 3}
+    RightActive: 0
+    RightName: Duck
+    RightAvatar: {fileID: 21300000, guid: 11da9b7220bea1b41ab955ad03745bcd, type: 3}
+  - Name: Test4
+    Text: "I am a duck but I am also a wise sage.\n I know everything. To complete
+      your mission, you must traverse the great mountain of doom and fight the magmaborn
+      devil. Only after your victory shall the village be saved.\nAfter you saved
+      the village, you must go across the sea of gaia and find the continent of taros.
+      There you will meet your destiny. Now hero, go forth and save the world!"
+    LeftActive: 0
+    LeftName: Player
+    LeftAvatar: {fileID: 21300000, guid: 9fbba489e20a7b649ab72a6dcf63ff55, type: 3}
+    RightActive: 1
+    RightName: Duck
+    RightAvatar: {fileID: 21300000, guid: 11da9b7220bea1b41ab955ad03745bcd, type: 3}
+  - Name: Test5
+    Text: Ok, I will do as you say.
+    LeftActive: 1
+    LeftName: Hero
+    LeftAvatar: {fileID: 21300000, guid: 9fbba489e20a7b649ab72a6dcf63ff55, type: 3}
+    RightActive: 0
+    RightName: Wise Sage Duck
+    RightAvatar: {fileID: 21300000, guid: 11da9b7220bea1b41ab955ad03745bcd, type: 3}
+  currentPart: 4
+  DefaultAvatar: {fileID: 0}

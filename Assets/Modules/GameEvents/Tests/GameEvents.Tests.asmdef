@@ -1,0 +1,16 @@
+{
+    "name": "GameEvents.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0b94faef3f23b0f46beca224e811987c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

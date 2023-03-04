@@ -1,0 +1,16 @@
+{
+    "name": "EffectSystem.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3ab9ecdbed7e0ab4cbfb4598d25a8d3e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
