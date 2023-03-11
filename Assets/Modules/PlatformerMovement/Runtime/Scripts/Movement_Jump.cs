@@ -7,13 +7,13 @@ public class Movement_Jump : MovementAffector
 {
     public override int OrderIndex => 2;
 
-    [SerializeField] private KeyCode[] jumpKeys;
-
+    [SerializeField] private BaseInputProvider input;
+    
     private bool isJumping;
-    private bool jumpInputReleased;
+    //private bool jumpInputReleased;
 
-    private float lastGroundedTime;
-    private float lastJumpTime;
+    //private float lastGroundedTime;
+    //private float lastJumpTime;
     
     public override void Run(float delta)
     {
@@ -31,8 +31,8 @@ public class Movement_Jump : MovementAffector
 
         if(movement.force.y > 0.01f)
             return;
-        
-        if(!jumpKeys.Any(Input.GetKey))
+
+        if (!input.A.isPressed)
             return;
 
         Jump();
@@ -41,17 +41,17 @@ public class Movement_Jump : MovementAffector
     private void Jump()
     {
         movement.force = Vector2.up * (movement.config.jumpForce);
-        lastGroundedTime = 0;
-        lastJumpTime = 0;
+        //lastGroundedTime = 0;
+        //lastJumpTime = 0;
         isJumping = true;
-        jumpInputReleased = false;
+        //jumpInputReleased = false;
     }
 
     private void whileJumping()
     {
-        if (!jumpKeys.Any(Input.GetKey))
+        if (!input.A.isPressed)
         {
-            jumpInputReleased = true;
+            //jumpInputReleased = true;
             isJumping = false;
             return;
         }

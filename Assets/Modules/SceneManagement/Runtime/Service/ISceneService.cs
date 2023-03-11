@@ -4,4 +4,12 @@
     {
         public void ChangeSceneTo(string scenePath);
     }
+    
+    public class DummySceneService : ISceneService
+    {
+        public void ChangeSceneTo(string scenePath)
+        {
+            
+        }
+    }
 }

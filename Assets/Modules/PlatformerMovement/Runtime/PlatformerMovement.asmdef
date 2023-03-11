@@ -2,7 +2,8 @@
     "name": "PlatformerMovement",
     "rootNamespace": "",
     "references": [
-        "GUID:38455e7b628c6a34ea3a2107b2a49437"
+        "GUID:38455e7b628c6a34ea3a2107b2a49437",
+        "GUID:cfc9c77c16a04d948ab69a9984111ad4"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

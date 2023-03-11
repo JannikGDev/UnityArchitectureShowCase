@@ -13,3 +13,5 @@ public class SceneBaseServiceConfig : BaseServiceConfig<ISceneService>
     [SerializeField] 
     public bool testMode;
 }
+
+

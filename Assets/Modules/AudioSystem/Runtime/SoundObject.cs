@@ -7,6 +7,10 @@ public class SoundObject : ScriptableObject
 {
     public AudioClip clip;
 
+    public float Volume;
+
+    public float Pitch;
+    
     public AudioSource Play(AudioSource source = null)
     {
         if (clip == null)
@@ -21,8 +25,8 @@ public class SoundObject : ScriptableObject
         }
 
         source.clip = clip;
-        source.volume = 1;
-        source.pitch = 1;
+        source.volume = Volume;
+        source.pitch = Pitch;
 
         source.Play();
         

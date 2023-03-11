@@ -1,4 +1,5 @@
-﻿using Modules.AudioSystem.Runtime;
+﻿using Assets.Modules.SceneManagement;
+using Modules.AudioSystem.Runtime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +15,8 @@ namespace Modules.Core.ServiceLocator
 
             Game.Services.RegisterDummyService<IAudioService>(new DummyAudioService());
             Game.Services.RegisterDummyService<IDialogService>(new DummyDialogService());
+            Game.Services.RegisterDummyService<ISceneService>(new DummySceneService());
+            Game.Services.RegisterDummyService<IGlobalTimerService>(new DummyGlobalTimerService());
         }
     }
 }

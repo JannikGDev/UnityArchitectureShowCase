@@ -1,0 +1,17 @@
+{
+    "name": "GlobalTimer.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7e05125e04989fd488d8e37806149972",
+        "GUID:38455e7b628c6a34ea3a2107b2a49437"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
