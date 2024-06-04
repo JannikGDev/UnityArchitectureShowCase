@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78f502eef25fb8240b0d0d6580b23f66, type: 3}
+  m_Script: {fileID: 11500000, guid: 68b7f92603d8553469fc146e02cf3d57, type: 3}
   m_Name: PlatformerWinDialog
   m_EditorClassIdentifier: 
   parts:
-  - Name: 
-    Text: You made it!
+  - Name: Green Square
+    Text: You reached the goal, proceed to the next level.
     LeftActive: 0
     LeftName: 
     LeftAvatar: {fileID: 0}

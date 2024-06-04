@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class Movement_MoveInput : MovementAffector
+public class Movement_Horizontal : MovementAffector
 {
     [SerializeField] 
     private BaseInputProvider input;
