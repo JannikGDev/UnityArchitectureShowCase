@@ -14,12 +14,19 @@ public class MovementController : MonoBehaviour
     
     public bool IsGrounded;
 
-    public Vector2 Size;
-    public Vector2 Position => target.position;
+    public Vector2 Size => target.GetComponent<Collider2D>().bounds.size;
+
+    public Vector2 Position
+    {
+        get => target.position;
+        set => target.position = value;
+    }
     
     public Vector2 force;
 
     public Vector2 velocity => target.velocity;
+
+    public Vector2? velocityOverwrite = null;
 
     private void FixedUpdate()
     {
@@ -28,6 +35,12 @@ public class MovementController : MonoBehaviour
         foreach (var affector in affectors)
         {
             affector.Run(Time.fixedDeltaTime);
+        }
+        
+        if (velocityOverwrite != null)
+        {
+            target.velocity = velocityOverwrite.Value;
+            return;
         }
         
         target.AddForce(force, ForceMode2D.Impulse);

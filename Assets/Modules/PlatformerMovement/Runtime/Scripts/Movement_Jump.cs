@@ -41,10 +41,8 @@ public class Movement_Jump : MovementAffector
     private void Jump()
     {
         movement.force = Vector2.up * (movement.config.jumpForce);
-        //lastGroundedTime = 0;
-        //lastJumpTime = 0;
+
         isJumping = true;
-        //jumpInputReleased = false;
     }
 
     private void whileJumping()

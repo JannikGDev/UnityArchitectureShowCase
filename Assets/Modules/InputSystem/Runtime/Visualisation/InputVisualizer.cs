@@ -44,6 +44,12 @@ public class InputVisualizer : MonoBehaviour
         DpadDown.SetActive(input.Stick1.y < 0);
         DpadRight.SetActive(input.Stick1.x > 0);
         DpadLeft.SetActive(input.Stick1.x < 0);
+        
+        if(input.Stick1.V2.sqrMagnitude > 0)
+            Debug.Log($"Stick1: {input.Stick1.V2}");
+        
+        if(input.Stick2.V2.sqrMagnitude > 0)
+            Debug.Log($"Stick2: {input.Stick2.V2}");
     }
     
     
